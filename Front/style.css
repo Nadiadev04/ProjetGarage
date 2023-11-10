@@ -1,0 +1,376 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inika&family=Libre+Baskerville&display=swap');
+
+ /* je fais ke reset de tous les styles par defaut */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
+ /* stylisation du body */
+body{
+    font-family : 'DM Serif Display', serif ;
+    
+}
+
+/* nav */
+.ulnav{
+   
+    flex-wrap: nowrap;
+    
+}
+
+.lesa:hover{
+    color: rgb(2, 30, 68);
+}
+
+.ab{
+    
+    font-size: 0.90em;
+}
+
+
+/* stylisation de header */
+.bloc_header{
+    background: url(./Assets/images/im~prèsentation/garagiste.header.jpg) rgba(11, 11, 46, 0.596);
+    background-blend-mode: color-burn;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_header{
+background-color: rgba(12, 12, 12, 0.562);
+}
+
+.bloc_txtheader{
+    background-color: blueviolet;
+}
+
+.headerphe{
+    font-size: 1.2em;
+    color: white;
+}
+
+/* Bloc bas du header */
+.cardtlt-css {
+ color: rgb(7, 7, 31);
+}
+.ctxt-css{
+   color: white ;
+   font-size: 0.90em;
+}
+/* Sect-one  */
+
+.sectone-container{
+    width: 100%;
+    
+}
+/* bloc-presentation des voitures */
+.car-container, .services-container, .comment_container{
+    background-color: rgba(2, 32, 44, 0.192);
+    width: 100%;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.car_mark{
+   font-size: 1.79em;
+}
+
+
+/* stylisation bloc presentation service */
+.services-container{
+    background-color: rgba(0, 0, 255, 0.247);
+}
+
+.row-bottom{
+    padding-bottom: 10px;
+    
+}
+
+.tiltle-car-container, .tiltle-services-container, .titl-comment_container{
+    text-align: center;
+    color: rgb(7, 7, 31);
+    font-size: 1.4em;
+}
+
+.t-pres{
+    font-size: 1.3em;
+    padding-bottom: 5px;
+    color: rgb(1, 28, 49);
+
+}
+.p-pres,.p-comment{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.75em;
+}
+
+
+/* bloc commentaire */
+.comment_container{
+    background-color: rgb(253, 253, 253);
+}
+.comment-row{
+    border: 2px solid black;
+}
+.User-name-comment{
+    font-size: 0.79em;
+}
+
+ /* Stylisation de mon formulaire */
+
+ .section_two{
+    width: 100%
+ }
+
+ .bloc_form{
+    background-color: rgb(79, 120, 148);
+ }
+form{
+    width:53%;
+    background-color: rgb(185, 222, 253);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.bloc_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form h2 {
+    font-size: 20px;
+}
+
+form .separator{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(0, 0, 61);
+}
+
+form .corps_formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+form .corps_formulaire .boites{
+      position: relative;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+}
+
+form .corps_formulaire .form-left .boites input{
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid rgb(179, 178, 178);
+    outline-color: rgb(2, 63, 80);
+    border-radius: 5px;
+}
+
+form .corps_formulaire .form-left .boites i{
+    position:absolute;
+    left:0;
+    top: 25px;
+    padding: 9px 8px;
+    color: rgb(2, 41, 56);
+
+}
+
+div .form-right{
+    margin-left: 30px;
+   
+}
+
+div .form-right .bloc_message {
+    height: 100%;
+}
+
+div .form-right .bloc_message textarea{
+    margin-top: 5px;
+    padding: 15px;
+    border: 2px solid rgb(1, 38, 54);
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+}
+
+form .footer_form button {
+    margin-top: 10px;
+    background-color: rgb(0, 63, 82);
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px ;
+    border-radius: 5px;
+    outline: none;
+
+}
+form .footer_form button:hover {
+    background-color: brown;
+
+}
+
+
+
+/* styling of my footer */
+
+footer{
+    flex-shrink: 0;
+    border-top: 1px solid rgb(31, 30, 30);
+    width: 100%;
+    background: rgb(0, 16, 68);
+    color: rgb(236, 234, 234);
+}
+
+
+
+.footer_container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:0.8em;
+    padding: 0 50px 100px ;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.bloc_du_haut{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: black;
+}
+
+.bloc{
+    width: 50%;
+    padding: 0;
+    margin: 0 30px;
+    
+}
+
+ div .bloc_reparation.bloc h3,
+ div .bloc_entretient.bloc h3,
+ div .bloc_garage_com.bloc h3,
+ div .bloc_horaire.bloc h3{
+    font-size: 1.07em;
+    padding-bottom: 5px;
+    color: rgb(110, 189, 253);
+ }
+
+ a{
+    color: rgba(240, 248, 255, 0.76);
+    transition: transform 0.5s;
+ }
+ a:hover{
+    color:rgb(35, 86, 109);
+    transform: scale(1.05s);
+ }
+/* bloc-ba footer */
+.bloc_du_bas{
+    width: 100%;
+    background-color: rgb(134, 159, 180);
+}
+
+.logoreseau{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.lorgo-r{
+    width:15px;
+    margin: 8px;
+
+}
+
+@media screen and (max-width:800px) {
+    .footer_container{
+        width: 320px;
+        font-size: 1em;
+    }
+
+    .bloc_du_haut{
+        width: 100%;
+        margin-right: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bloc{
+        width: 80%;
+        margin: 0px 0px;
+    }
+
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-bottom: 30px 10px;
+    }
+
+    
+ div .bloc_reparation.bloc h3,
+ div .bloc_entretient.bloc h3,
+ div .bloc_garage_com.bloc h3,
+ div .bloc_horaire.bloc h3{
+    padding-bottom: 5px;
+    color: rgb(110, 189, 253);
+ }
+
+
+    .logoreseau{
+        margin: 1.11em;
+    }
+}
+
+                                      /* style page vparot */
+/* bloc qui sommes nous */
+.bloc-text-vparot{
+    background-color: rgb(7, 27, 44);
+}
+
+.blc_vpartlogo{
+    background-color: rgba(12, 12, 12, 0.562); ;
+}
+
+.cardtlt-vparot{
+    color: rgb(207, 207, 207);
+}
+
+.txt-vparot{
+    font-size: 0.8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* bloc mentions légals */
+
+.bloc-mentions{
+    display: flex;
+    flex-direction: row-reverse;
+}

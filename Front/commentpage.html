@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Page d'accueil</title>
+</head>
+<body>
+    <!-- start of my nav -->
+    <nav class="navbar  navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <!-- logo -->
+        <a class="navbar-brand fs-4" href="#">Garagevparot</a>
+        <!-- toggle btn -->
+        <button 
+        class="navbar-toggler shadow-none border-0" 
+        type="button" data-bs-toggle="offcanvas" 
+        data-bs-target="#offcanvasDarkNavbar" 
+        aria-controls="offcanvasDarkNavbar" 
+        aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- sidebar -->
+        <div class=" sidebar offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <!-- sidebar header -->
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Sidebar</h5>
+            <button type="button" 
+            class="btn-close btn-close-white" 
+            data-bs-dismiss="offcanvas" 
+            aria-label="Close"></button>
+          </div>
+          <!-- sidebar body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4">
+            <ul class="navbar-nav ulnav d-flex justify-content-evenly align-items-center ">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active"  href="./pagesevice.html">Nos service</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active"  href="./voiturepage.html">Nos voitures d'occasion</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active"  href=#Pagevparot">garagevparot.com</a>
+              </li>
+              <li class="nav-item mx-2">
+               <a href="#login" class="text-white text-decoration-none">Login</a>
+            </li>
+            </ul>
+            
+           
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- start of my header -->
+    <header class="my header">
+        <div class="bloc_header">
+           <div class="logo_header">
+             <img src="./Assets/logo/Garagevparot-removebg-new.png" width="300"  alt="logo.vparot">
+           </div>
+        </div>
+    </header> 
+     <!-- End of my header  -->
+     <section>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8 col-lg-6">
+              <div class="card shadow-0 border" style="background-color: #f0f2f5;">
+                <div class="card-body p-4">
+                  <div class="form-outline mb-4">
+                    <input type="text" id="addANote" class="form-control" placeholder="Type comment..." />
+                    <label class="form-label" for="addANote">+ Add a note</label>
+                  </div>
+          
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <p>Type your note, and hit enter to add it</p>
+          
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar" width="25"
+                            height="25" />
+                          <p class="small mb-0 ms-2">Martha</p>
+                        </div>
+                        <div class="d-flex flex-row align-items-center">
+                          <p class="small text-muted mb-0">Upvote?</p>
+                          <i class="far fa-thumbs-up mx-2 fa-xs text-black" style="margin-top: -0.16rem;"></i>
+                          <p class="small text-muted mb-0">3</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <p>Type your note, and hit enter to add it</p>
+          
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" width="25"
+                            height="25" />
+                          <p class="small mb-0 ms-2">Johny</p>
+                        </div>
+                        <div class="d-flex flex-row align-items-center">
+                          <p class="small text-muted mb-0">Upvote?</p>
+                          <i class="far fa-thumbs-up mx-2 fa-xs text-black" style="margin-top: -0.16rem;"></i>
+                          <p class="small text-muted mb-0">4</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <p>Type your note, and hit enter to add it</p>
+          
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp" alt="avatar" width="25"
+                            height="25" />
+                          <p class="small mb-0 ms-2">Mary Kate</p>
+                        </div>
+                        <div class="d-flex flex-row align-items-center text-primary">
+                          <p class="small mb-0">Upvoted</p>
+                          <i class="fas fa-thumbs-up mx-2 fa-xs" style="margin-top: -0.16rem;"></i>
+                          <p class="small mb-0">2</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="card">
+                    <div class="card-body">
+                      <p>Type your note, and hit enter to add it</p>
+          
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" width="25"
+                            height="25" />
+                          <p class="small mb-0 ms-2">Johny</p>
+                        </div>
+                        <div class="d-flex flex-row align-items-center">
+                          <p class="small text-muted mb-0">Upvote?</p>
+                          <i class="far fa-thumbs-up ms-2 fa-xs text-black" style="margin-top: -0.16rem;"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+     </section>
+     
+     <!-- Section two -->
+     <section class="section_two">
+      <div class="sect-two-container">
+       <div class="bloc_form">
+          <form>
+              <h2>Contactez-nous</h2>
+              <div class="separator"></div>
+              <div class="corps_formulaire">
+                  <div class="form-left">
+                      <div class="bloc-Nom boites">
+                          <label>Votre Nom</label>
+                          <input type="text">
+                          <i class="fa-solid fa-user"></i>
+                      </div>
+                      <div class="bloc-adresse-email boites">
+                          <label>Adresse-email</label>
+                          <input type="email">
+                          <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <div class="bloc-tel boites">
+                          <label>tel</label>
+                          <input type="tel">
+                          <i class="fa-solid fa-mobile"></i>
+                      </div>
+                  </div>
+                  <div class="form-right">
+                      <div class="bloc_message boites">
+                          <label>Message</label>
+                          <textarea></textarea>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer_form">
+                  <button>Envoyez le message</button>
+              </div>
+          </form>
+       </div>
+      </div>
+     </section> 
+ 
+    <footer >
+        <div class="footer_container">
+            <div class="bloc_du_haut">
+                <div class="bloc_reparation bloc">
+                    <h3>Panne et Réparation</h3>
+                    <ul class="liste_reparation ">
+                       <li class="l-r_1"><a>Courroie de distribution</a></li>
+                       <li class="l-r_1"><a>Embrayage</a></li>
+                       <li class="l-r_1"><a>Catalyseur</a></li>
+                       <li class="l-r_1"><a>Diagnostic sécurité</a></li>
+                       <li class="l-r_1"><a>Amortiseur</a></li>
+                       <li class="l-r_1"><a>Rénovation carousserie</a></li>
+                    </ul>
+                </div>
+                <div class="bloc_entretient bloc">
+                    <h3>Entretient Courant</h3>
+                    <ul class="liste_Entretient">
+                        <li class=""l-E_1><a>Pneumatiques</a></li>
+                        <li class="l-E_2"><a>Entretient et vidange</a></li>
+                        <li class="l-E_3"><a>Révision-recharge de la climatisation</a></li>
+                        <li class="l-E_4"><a>Plaquettes</a></li>
+                        <li class="l-r_5"><a>Batterie</a></li>
+                        <li class="l-r_6"><a>Rénovation Phares</a></li>
+                     </ul>
+                </div>
+                <div class="bloc_horaire bloc">
+                    <h3>Nos horaires d'ouverture</h3>
+                    <ul class="les_horaires">
+                        <li class="j-_1">✔️Lundi: 8h-23h</li>
+                        <li class="j-_2"> ✔️Mardi: 8h-23h</li>
+                        <li class="j-_1"> ✔️Mercredi: 8h-23h</li>
+                        <li class="j-_1"> ✔️Jeudi: 8h-23h</li>
+                        <li class="j-_1">✔️Vendredi: 8h-23h</li>
+                        <li class="j-_1">❌Samedi: fermé</li>
+                        <li class="j-_1">❌Dimanche: fermé</li>
+                     </ul>
+                </div>
+                <div class="bloc_garage_com bloc">
+                    <h3>garagevparot.com</h3>
+                    <ul class="Le_garage ">
+                        <li class="l-1"><a>Qui sommes nous?</a></li>
+                        <li class="l-2"><a>Mentions légales</a></li>
+                        <li class="l-3"><a>Gestion des cookies</a></li>
+                        <li class="l4"><a>Garantie 5ans piéces et main d'oruvre</a></li>
+                     </ul>
+                </div>
+            </div>
+            <div class="bloc_du_bas">
+                <ul class="logoreseau">
+                    <li><a><img src="./Assets/icones/instagram.png" class="lorgo-r" alt="logo instagram"></a></li>
+                    <li><a><img src="./Assets/icones/twitter (1).png" class="lorgo-r" alt="twitter"></a></li>
+                    <li><a><img src="./Assets/icones/youtube.png"  class="lorgo-r" alt="youtube"></a></li>
+                </ul>  
+            </div>
+    
+        </div>
+     </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

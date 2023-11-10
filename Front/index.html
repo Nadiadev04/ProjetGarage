@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Page d'accueil</title>
+</head>
+<body>
+    <!-- start of my nav -->
+    <nav class="navbar  navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <!-- logo -->
+        <a class="navbar-brand fs-4" href="#">Garagevparot</a>
+        <!-- toggle btn -->
+        <button 
+        class="navbar-toggler shadow-none border-0" 
+        type="button" data-bs-toggle="offcanvas" 
+        data-bs-target="#offcanvasDarkNavbar" 
+        aria-controls="offcanvasDarkNavbar" 
+        aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- sidebar -->
+        <div class=" sidebar offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <!-- sidebar header -->
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Sidebar</h5>
+            <button type="button" 
+            class="btn-close btn-close-white" 
+            data-bs-dismiss="offcanvas" 
+            aria-label="Close"></button>
+          </div>
+          <!-- sidebar body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4">
+            <ul class="navbar-nav ulnav d-flex justify-content-evenly align-items-center ">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active"  href="./pagesevice.html">Nos service</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active"  href="./voiturepage.html">Nos voitures d'occasion</a>
+              </li>
+              <li class="nav-item mx-2">
+               <a href="#login" class="text-white text-decoration-none">Login</a>
+            </li>
+            </ul>
+            
+           
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- start of my header -->
+    <header class="my header">
+        <div class="bloc_header">
+           <div class="logo_header">
+             <img src="./Assets/logo/Garagevparot-removebg-new.png" width="300"  alt="logo.vparot">
+           </div>
+        </div>
+    </header> 
+     <!-- End of my header  -->
+
+     <section class="sectone">
+      <div class="sectone-container">
+        <div class="entretien">
+          <div class="card mb-3 bg-secondary" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./Assets/images/im~prèsentation/mechanic-tenant-tablette-numerique.jpg " class="img-fluid rounded-start" alt="presentation des services">
+              </div>
+              <div class="col-md-8 bloc-bas_header">
+                <div class="car-body">
+                  <h5 class="card-title cardtlt-css">Pourquoi entretenir sa voiture ?</h5>
+                  <p class="card-text ctxt-css">Pour garantir sa performance et votre securité.</p>
+                  <a href="" class="btn btn-primary">Nos services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="car-container">
+          <h2 class="tiltle-car-container">Laquelle choisierez vous?</h2>
+          <div class="row row-one">
+            <div class="col">
+             <div class="card" style="width: 15rem;">
+              <img src="./Assets/images/im~voitures d'occasion/car_occ7.jpg">
+              <div class="car-body">
+                <h2 class="car_mark">Toyota XXX</h2>
+                <p>◾46900km  ◾2009</p>
+                 <a href="#" class="btn btn-primary">Prix:28950€ </a>
+              </div>
+             </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 15rem;">
+                <img src="./Assets/images/im~voitures d'occasion/car_occ5.jpg">
+                       <div class="car-body">
+                        <h2 class="car_mark">Boline</h2>
+                        <p>◾5900km  ◾2016</p>
+                        <a href="#" class="btn btn-primary">Prix:30000€</a>
+                      </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div  class="card" style="width: 15rem;">
+                <img src="./Assets/images/im~voitures d'occasion/car_occ6.jpg">
+              <div class="car-body">
+                <h2 class="car_mark">Jeep</h2>
+                <p>◾3200km  ◾2010</p>
+                 <a href="#" class="btn btn-primary">Prix:28950€ </a>
+              </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 15rem;">
+                <img src="./Assets/images/im~voitures d'occasion/car_occ4.jpg">
+                       <div class="car-body">
+                        <h2 class="car_mark">Darline</h2>
+                        <p>◾5600km  ◾2015</p>
+                        <a href="#" class="btn btn-primary">Prix:36000€</a>
+                      </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="services-container">
+          <h2 class="tiltle-services-container">Quelques prestations....</h2>
+          <div class="row row-one">
+            <div class="col">
+             <div class="card" style="width: 15rem;">
+              <img src="./Assets/images/im~services/travailleur-service-voiture-musculaire-reparant-vehicule.jpg">
+              <div class="service-body">
+                <h2 class="t-pres">Courroie  de distribution </h2>
+                <p  class="p-pres">La courroie de distrubition est essentielle <br> pour le moteur</p>
+                 <a href="#" class="btn btn-danger">A partir de:235€</a>
+              </div>
+             </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 15rem;">
+                <img src="./Assets/images/im~services/travailleur-service-voiture-musculaire-reparant-vehicule.jpg">
+                       <div class="service-body">
+                        <h2 class="t-pres">Entretien et vidange</h2>
+                        <p  class="p-pres">Il est important de faire une revision complète et le vidange de sa <br> voiture avant un long trajet.</p>
+                        <a href="#" class="btn btn-danger">A partir de:79€</a>
+                      </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div  class="card" style="width: 15rem;">
+                <img src="./Assets/images/im~services/travailleur-service-voiture-musculaire-reparant-vehicule.jpg">
+              <div class="service-body">
+                <h2 class="t-pres">Révision-recharge de la climatisation</h2>
+                <p  class="p-pres">La climatisation peut faire une enorme differences<br>lors d' un trajet en voiture</p>
+                 <a href="#" class="btn btn-danger">A partir de:64€</a>
+              </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 15rem;">
+                <img src="./Assets/images/im~services/travailleur-service-voiture-musculaire-reparant-vehicule.jpg" >
+                       <div class="service-body">
+                        <h2 class="t-pres">Pneumatiques</h2>
+                        <p class="p-pres">Les pneumatiques sont un lien direct entre<br> la voiture et le sol</p>
+                        <a href="#" class="btn btn-danger">A partir de:59.90€</a>
+                      </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- Section two -->
+     <section class="section_two">
+      <div class="sect-two-container">
+        <div class="comment_container">
+          <h2 class="titl-comment_container">Ils nous recommandent...</h2>
+          <p>⭐⭐⭐⭐  note:8.5/10</p>
+          <div class="row">
+              <div class="col  comment1">
+                  <h3 class="User-name-comment">Mahaman Boubacar</h3>
+                  <p class="P-comment">05/10/2023        ⭐⭐⭐⭐⭐</p>
+                  <P>trés satisfait merci</P>
+              <div class=" col comment2">
+                  <h3 class="User-name-comment">Mahaman Ouways</h3>
+                  <p class="p-comment">05/05/2023         ⭐⭐⭐⭐</p>
+                  <P>Bon travaim merci</P>
+              </div>
+              </div>
+          </div>
+         <button class="btn btn-warning">Voir tous les avis</button>
+       </div>
+       <div class="bloc_form">
+          <form>
+              <h2>Contactez-nous</h2>
+              <div class="separator"></div>
+              <div class="corps_formulaire">
+                  <div class="form-left">
+                      <div class="bloc-Nom boites">
+                          <label>Votre Nom</label>
+                          <input type="text">
+                          <i class="fa-solid fa-user"></i>
+                      </div>
+                      <div class="bloc-adresse-email boites">
+                          <label>Adresse-email</label>
+                          <input type="email">
+                          <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <div class="bloc-tel boites">
+                          <label>tel</label>
+                          <input type="tel">
+                          <i class="fa-solid fa-mobile"></i>
+                      </div>
+                  </div>
+                  <div class="form-right">
+                      <div class="bloc_message boites">
+                          <label>Message</label>
+                          <textarea></textarea>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer_form">
+                  <button>Envoyez le message</button>
+              </div>
+          </form>
+       </div>
+      </div>
+     </section> 
+ 
+    <footer >
+        <div class="footer_container">
+            <div class="bloc_du_haut">
+                <div class="bloc_reparation bloc">
+                    <h3>Panne et Réparation</h3>
+                    <ul class="liste_reparation ">
+                       <li class="l-r_1"><a>Courroie de distribution</a></li>
+                       <li class="l-r_1"><a>Embrayage</a></li>
+                       <li class="l-r_1"><a>Catalyseur</a></li>
+                       <li class="l-r_1"><a>Diagnostic sécurité</a></li>
+                       <li class="l-r_1"><a>Amortiseur</a></li>
+                       <li class="l-r_1"><a>Rénovation carousserie</a></li>
+                    </ul>
+                </div>
+                <div class="bloc_entretient bloc">
+                    <h3>Entretient Courant</h3>
+                    <ul class="liste_Entretient">
+                        <li class=""l-E_1><a>Pneumatiques</a></li>
+                        <li class="l-E_2"><a>Entretient et vidange</a></li>
+                        <li class="l-E_3"><a>Révision-recharge de la climatisation</a></li>
+                        <li class="l-E_4"><a>Plaquettes</a></li>
+                        <li class="l-r_5"><a>Batterie</a></li>
+                        <li class="l-r_6"><a>Rénovation Phares</a></li>
+                     </ul>
+                </div>
+                <div class="bloc_horaire bloc">
+                    <h3>Nos horaires d'ouverture</h3>
+                    <ul class="les_horaires">
+                        <li class="j-_1">✔️Lundi: 8h-23h</li>
+                        <li class="j-_2"> ✔️Mardi: 8h-23h</li>
+                        <li class="j-_1"> ✔️Mercredi: 8h-23h</li>
+                        <li class="j-_1"> ✔️Jeudi: 8h-23h</li>
+                        <li class="j-_1">✔️Vendredi: 8h-23h</li>
+                        <li class="j-_1">❌Samedi: fermé</li>
+                        <li class="j-_1">❌Dimanche: fermé</li>
+                     </ul>
+                </div>
+                <div class="bloc_garage_com bloc">
+                    <h3>garagevparot.com</h3>
+                    <ul class="Le_garage ">
+                        <li class="l-1"><a>Qui sommes nous?</a></li>
+                        <li class="l-2"><a>Mentions légales</a></li>
+                        <li class="l-3"><a>Gestion des cookies</a></li>
+                        <li class="l4"><a>Garantie 5ans piéces et main d'oruvre</a></li>
+                     </ul>
+                </div>
+            </div>
+            <div class="bloc_du_bas">
+                <ul class="logoreseau">
+                    <li><a><img src="./Assets/icones/instagram.png" class="lorgo-r" alt="logo instagram"></a></li>
+                    <li><a><img src="./Assets/icones/twitter (1).png" class="lorgo-r" alt="twitter"></a></li>
+                    <li><a><img src="./Assets/icones/youtube.png"  class="lorgo-r" alt="youtube"></a></li>
+                </ul>  
+            </div>
+    
+        </div>
+     </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
