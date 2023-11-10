@@ -9,6 +9,59 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- start of my nav -->
+    <nav class="navbar  navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <!-- logo -->
+        <a class="navbar-brand fs-4" href="#">Garagevparot</a>
+        <!-- toggle btn -->
+        <button 
+        class="navbar-toggler shadow-none border-0" 
+        type="button" data-bs-toggle="offcanvas" 
+        data-bs-target="#offcanvasDarkNavbar" 
+        aria-controls="offcanvasDarkNavbar" 
+        aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- sidebar -->
+        <div class=" sidebar offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <!-- sidebar header -->
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Sidebar</h5>
+            <button type="button" 
+            class="btn-close btn-close-white" 
+            data-bs-dismiss="offcanvas" 
+            aria-label="Close"></button>
+          </div>
+          <!-- sidebar body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4">
+            <ul class="navbar-nav ulnav d-flex justify-content-evenly align-items-center ">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active"  href="./pagesevice.html">Nos service</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active"  href="./voiturepage.html">Nos voitures d'occasion</a>
+              </li>
+              <li class="nav-item mx-2">
+               <a href="#login" class="text-white text-decoration-none">Login</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- start of my header -->
+    <header class="my header">
+        <div class="bloc_header">
+           <div class="logo_header">
+             <img src="./Assets/logo/Garagevparot-removebg-new.png" width="300"  alt="logo.vparot">
+           </div>
+        </div>
+    </header> 
+     <!-- End of my header  -->
 
      <section class="sectone">
       <div class="sectone-container">
